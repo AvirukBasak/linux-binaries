@@ -6,4 +6,4 @@ This is not a guide, nor a project.
 
 ### Index
 - [exec.md](docs/exec.md) - Invoking a new process
-- [buffovf.c](src/buffovf.c) - Buffer overflow vuln
+- [buffovf.c](protostar_heap_1/buffovf.c) - Buffer overflow vuln
