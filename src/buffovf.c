@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 
 struct internet {
     int id;
@@ -10,7 +11,8 @@ struct internet {
 
 // redirect code excution via buffer overflow
 void target() {
-    printf("flag{_SUCCESS_%ld_}\n", time(NULL));
+    char *s = "Flag{_SUCCESS_}\n";
+    write(1, s, strlen(s));
 }
 
 int main(int argc, char **argv) {
